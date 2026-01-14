@@ -32,7 +32,7 @@ export default function CartPage() {
                 <img
                   src={it.image}
                   alt={it.title}
-                  className="object-contain h-full"
+                  className="object-contain w-full"
                 />
               ) : (
                 <div className="text-xs text-muted-foreground">No image</div>

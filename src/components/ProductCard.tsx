@@ -15,7 +15,7 @@ export default function ProductCard({ product }: { product: Product }) {
             <img
               src={product.image}
               alt={product.title}
-              className="object-contain h-full"
+              className="object-contain w-full"
             />
           ) : (
             <div className="text-sm text-muted-foreground">No image</div>

@@ -10,12 +10,13 @@ export default function Header() {
     <header className="w-full border-b border-border bg-card px-6 py-4">
       <div className="max-w-4xl mx-auto flex items-center justify-between gap-4">
         <Link to="/" className="text-lg font-semibold">
-          The Modern Shop
+          It's Easy Son
         </Link>
         <nav className="flex items-center gap-3">
           <Link to="/" className="text-sm opacity-90 hover:opacity-100">
             Home
           </Link>
+
           <Link to="/cart">
             <Button variant="ghost" size="sm">
               Cart {count > 0 ? `(${count})` : ""}

@@ -7,12 +7,15 @@ import ProductPage from "@/pages/ProductPage";
 import CartPage from "@/pages/CartPage";
 import CheckoutPage from "@/pages/CheckoutPage";
 import { CartProvider } from "@/lib/cartContext";
+import Hero from "./components/hero";
 
 function Home() {
   return (
-    <main className="max-w-4xl mx-auto py-12">
-      <h1 className="text-2xl font-semibold mb-6">Shop</h1>
-      <ProductList products={products} />
+    <main className="">
+      <Hero />
+      <div className="max-w-4xl mx-auto py-12">
+        <ProductList products={products} />
+      </div>
     </main>
   );
 }

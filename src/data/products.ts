@@ -1,3 +1,7 @@
+import Book from "../assets/book.jpg";
+import Poster from "../assets/poster.jpg";
+import TShirt from "../assets/tshirt.jpg";
+
 export type Product = {
   id: string;
   title: string;
@@ -9,11 +13,11 @@ export type Product = {
 export const products: Product[] = [
   {
     id: "book-001",
-    title: "The Modern Maker: Design & Practice",
+    title: "It's Easy Son - Quit Making Things Difficult",
     description:
-      "A practical guide to building thoughtful products and workflows. Beautifully bound paperback — perfect as a gift.",
+      "Gerlad Hector's motivational book to help you simplify your life and achieve your goals.",
     price: 24.99,
-    image: "/assets/book-01.svg",
+    image: Book,
   },
   {
     id: "poster-001",
@@ -21,21 +25,15 @@ export const products: Product[] = [
     description:
       "High-quality print — 18x24 inches — dark-themed inspirational poster.",
     price: 14.0,
-    image: "/assets/poster-01.svg",
+    image: Poster,
   },
-  {
-    id: "sticker-001",
-    title: "Logo Sticker Pack",
-    description: "Pack of 6 stickers with durable vinyl and matte finish.",
-    price: 6.5,
-    image: "/assets/stickers-01.svg",
-  },
+
   {
     id: "shirt-001",
-    title: "Branded Tee",
-    description: "Comfortable dark tee with small chest logo. 100% cotton.",
+    title: "It's Easy Son Tee",
+    description: "Comfortable cotton t-shirt with the 'It's Easy Son' slogan.",
     price: 28.0,
-    image: "/assets/shirt-01.svg",
+    image: TShirt,
   },
 ];
 
